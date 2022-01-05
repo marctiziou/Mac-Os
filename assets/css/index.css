@@ -1,0 +1,75 @@
+body{
+    padding: auto;
+    margin: auto;
+}
+
+/* nav */
+.navbar{
+    display: flex;
+    text-align: justify;
+    justify-content: space-around; 
+    background-color:black;
+    color: white;    
+}
+
+.navbar ul{
+    display: flex;
+}
+
+
+/* nav 2 */
+.navbar .titre {
+    /* mettre en MAJUSCULES  */
+    text-transform: uppercases;
+    /* color text  */
+    color: aquamarine;
+    
+}
+
+
+/* ensemble de la nav */
+
+.navbar {
+    display: flex;
+    /*  indique la façon dont l'espace doit être réparti  */
+    justify-content: space-around;
+    /* Les éléments sont regroupés au centre */
+    align-items: center;
+    /* color background  */
+    background-color: black;
+
+}
+
+.navbar ul.navbar_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* permet de définir la largeur */
+    width: 30%;
+    list-style: none;
+}
+
+.navbar ul.navbar_menu li a {
+    color: white;
+    /* est utilisée pour « décorer » le texte en ajoutant une ligne pouvant être positionnée sous. */
+    /* le none : cela n'aurait aucun impact */
+    text-decoration: none;
+    
+}
+/* class pour le bouton */
+.ee{
+    border: black solid 3px;
+    background-color: cadetblue;
+    border-radius: 20px;
+
+}
+
+
+
+
+/* header */
+.img1{
+    align-content: center;
+
+}
+
